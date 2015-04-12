@@ -77,7 +77,7 @@ static char UIScrollViewParallaxView;
         
         parallaxView.scrollView = self;
         parallaxView.parallaxHeight = height;
-        [self addSubview:parallaxView];
+        [self insertSubview:parallaxView atIndex:0];
 
         parallaxView.originalTopInset = self.contentInset.top;
         
